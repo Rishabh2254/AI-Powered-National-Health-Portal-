@@ -48,3 +48,19 @@ the app will be available at http://localhost:3000
       Authentication: Firebase Authentication
 
       Chatbot / AI: Gemini API (Google AI Studio)
+
+
+## .env
+
+The program might not run because if the missing .env file.
+to run the program add a .env file to you code base.
+
+the file should include the following elements
+
+NEXT_PUBLIC_FIREBASE_API_KEY="Your API Key"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="Your Domain"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID="Your ID"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="Your Bucket"
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="Your ID"
+NEXT_PUBLIC_FIREBASE_APP_ID="Your ID"
+NEXT_PUBLIC_GEMINI_API_KEY="Your API Key"
